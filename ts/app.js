@@ -62,6 +62,7 @@ console.log(userData.name);
 var complex2 = {
     data: [1, 2, 3],
     output: function (all) {
+        var d = all;
         return this.data;
     }
 };

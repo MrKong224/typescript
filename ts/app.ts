@@ -80,6 +80,7 @@ type Complex = {data:number[],output:(all:boolean)=> number[]}
 let complex2:Complex = {
     data: [1,2,3],
     output: function(all: boolean): number[]{
+        let d = all
         return this.data
     }
 }
