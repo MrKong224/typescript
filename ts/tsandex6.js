@@ -43,5 +43,29 @@ countDown(20);
 //Rest and spread
 console.log("################### Rest and Spread ####################");
 var arrNumber = [1, 8, 9, 50, -9];
+console.log(Math.max(1, 8, 9, 50, -9));
 console.log(Math.max.apply(Math, arrNumber));
+console.log("################### Make Array  ####################");
+function makeArray(method) {
+    var args = [];
+    for (var _i = 1; _i < arguments.length; _i++) {
+        args[_i - 1] = arguments[_i];
+    }
+    console.log.apply(console, args);
+    console.log(method);
+    console.log(args);
+    return args;
+}
+makeArray("makearray", 1, 2, 3, 4, 5);
+console.log("################### Destructuring  ####################");
+var myHobbies = ['cooking', 'sports'];
+var hobby1 = myHobbies[0], hobby2 = myHobbies[1];
+console.log(hobby1, hobby2);
+var custData = { userName: "Kong", age: 29 };
+var myName2 = custData.userName, myAge = custData.age;
+console.log(myName2, myAge);
+console.log("################### Template Literals  ####################");
+var userName = "Kong";
+var greeting = "Hello\nI'm " + userName + ". \nI'm web developer";
+console.log(greeting);
 //# sourceMappingURL=tsandex6.js.map
