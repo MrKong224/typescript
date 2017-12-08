@@ -36,10 +36,10 @@ let studentgrade:grade = grade.A
 //console.log(studentgrade)
 
 //any
-let car: any = "BMW"
+let car11: any = "BMW"
 //console.log(car)
-car = {brand:"TOYOTA",series:"3"} 
-//console.log(car)
+car11 = {brand:"TOYOTA",series:"3"} 
+//console.log(car11)
 
 //functions 
 function returnMyName(): string{

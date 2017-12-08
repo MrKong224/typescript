@@ -30,10 +30,10 @@ var grade;
 var studentgrade = grade.A;
 //console.log(studentgrade)
 //any
-var car = "BMW";
+var car11 = "BMW";
 //console.log(car)
-car = { brand: "TOYOTA", series: "3" };
-//console.log(car)
+car11 = { brand: "TOYOTA", series: "3" };
+//console.log(car11)
 //functions 
 function returnMyName() {
     return myName;
